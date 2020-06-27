@@ -554,7 +554,7 @@ pre code {
 }
 @media (min-width: 500px) {
   .container {
-    max-width: 480px;
+    max-width: 500px;
   }
 
     /*Versión mobile*/
