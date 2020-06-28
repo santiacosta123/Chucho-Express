@@ -552,11 +552,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 500px) {
-  .container {
-    max-width: 500px;
-  }
 
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
     /*Versión mobile*/
   section#contact {
     background-color: #212529;
@@ -565,6 +566,32 @@ pre code {
     height: 700px;
     margin-bottom: 0;
     background-position: center;
+  }
+
+  .mapa{
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 354px) {
+  .container {
+    max-width: 318px;
+  }
+    /*Versión mobile*/
+  section#contact {
+    background-color: #212529;
+    background-image: url("../assets/img/map-image.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 0;
+    background-position: center;
+  }
+
+  .mapa{
+    height: 200px;
+    width: 300px;
+    align-content: center;
   }
 }
 @media (min-width: 768px) {
@@ -576,9 +603,15 @@ pre code {
     background-color: #212529;
     background-image: url("../assets/img/map-image.png");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 650px;
     margin-bottom: 0;
     background-position: center;
+  }
+
+  .mapa{
+    height: 350px;
+    width: 300px;
+    align-content: center;
   }
 }
 @media (min-width: 992px) {
@@ -590,9 +623,15 @@ pre code {
     background-color: #212529;
     background-image: url("../assets/img/map-image.png");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 550px;
     margin-bottom: 0;
     background-position: center;
+  }
+
+  .mapa{
+    height: 350px;
+    width: 370px;
+    align-content: center;
   }
 }
 @media (min-width: 1200px) {
@@ -604,11 +643,19 @@ pre code {
     background-color: #212529;
     background-image: url("../assets/img/map-image.png");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 550px;
     margin-bottom: 0;
     background-position: center;
   }
+
+  .mapa{
+    height: 350px;
+    width: 450px;
+    align-content: center;
+  }
 }
+
+
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
@@ -638,6 +685,7 @@ pre code {
     max-width: 1140px;
   }
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
